@@ -4,8 +4,7 @@ import router from '@/router'
 const links = [
 	{
 		title: 'Example 1',
-		description:
-			'Just a simple empty map blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah',
+		description: 'Just a simple empty 2D map serving as a template for future examples.',
 		routeName: 'Example1',
 	},
 ]
@@ -19,13 +18,13 @@ const route = (name: string) => {
 	<div class="flex flex-col h-full w-full justify-center">
 		<div class="flex gap-4 self-center mt-10 items-center">
 			<div
-				class="h-24 w-24 aspect-square flex items-center justify-center rounded-lg"
+				class="h-18 w-18 aspect-square flex items-center justify-center rounded-lg"
 				style="background-color: rgba(235, 235, 235, 0.64)"
 			>
 				<img alt="ArcGIS logo" src="@/assets/arcgis-logo.png" class="h-24" />
 			</div>
 
-			<h1 class="text-7xl">Playground</h1>
+			<h1 class="text-5xl">Playground</h1>
 		</div>
 
 		<div class="container mx-auto mt-10 space-y-4">
