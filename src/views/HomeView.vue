@@ -3,9 +3,9 @@ import router from '@/router'
 
 const links = [
 	{
-		title: 'Example 1',
+		title: 'Basic 2D Map',
 		description: 'Just a simple empty 2D map serving as a template for future examples.',
-		routeName: 'Example1',
+		routeName: 'Basic2D',
 	},
 ]
 
